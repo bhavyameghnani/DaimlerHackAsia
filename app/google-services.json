@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "512806946697",
+    "firebase_url": "https://daimlerhackasia.firebaseio.com",
+    "project_id": "daimlerhackasia",
+    "storage_bucket": "daimlerhackasia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512806946697:android:55f2cea2b2b3a670898358",
+        "android_client_info": {
+          "package_name": "com.example.daimlerhackasia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512806946697-t714srtann7e7jcjr3rr7e3ua53vrjq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5wuLKDF0h3tRVmCuAiyvc84KJNJsZ94M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512806946697-t714srtann7e7jcjr3rr7e3ua53vrjq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
