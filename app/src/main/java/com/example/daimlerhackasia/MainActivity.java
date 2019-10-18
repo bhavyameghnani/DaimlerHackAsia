@@ -54,24 +54,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
 
-        /*if(view == i1){
-            startActivity(new Intent(this, markZoneActivity.class));
+        if(view == i1){
+            startActivity(new Intent(this, MapsActivity.class));
         }
         else if(view == i2){
-            startActivity(new Intent(this, qMgmtActivity.class));
+            startActivity(new Intent(this, MarkZoneActivity.class));
         }
         else if(view == i3){
-            startActivity(new Intent(this, AutoGenActivity.class));
+            startActivity(new Intent(this, MapsActivity.class));
         }
         else if(view == i4){
-            startActivity(new Intent(this, RewardsActivity.class));
+            startActivity(new Intent(this, MapsActivity.class));
         }
         else if(view == i5){
             startActivity(new Intent(this, MapsActivity.class));
         }
         else if(view == i6){
-            startActivity(new Intent(this, SOSActivity.class));
-        }*/
+            startActivity(new Intent(this, SOS.class));
+        }
 
     }
 }

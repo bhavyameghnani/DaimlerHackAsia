@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DaimlerHackAsia</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string-array name="departments">
+        <item>Potholes</item>
+        <item>Construction Debris</item>
+        <item>Bottleneck Structures</item>
+        <item>Others</item>
+    </string-array>
 </resources>
