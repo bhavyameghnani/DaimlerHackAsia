@@ -9,68 +9,64 @@
 
     <ImageView
         android:id="@+id/imageView_zoneview"
-        android:layout_width="301dp"
-        android:layout_height="210dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372"
-        app:srcCompat="@drawable/background" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="216dp"
-        android:layout_height="109dp"
-        android:layout_marginEnd="96dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/background" />
 
     <TextView
         android:id="@+id/title_zoneview"
         android:layout_width="315dp"
         android:layout_height="50dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_zoneview" />
 
     <TextView
         android:id="@+id/desc_zoneview"
         android:layout_width="315dp"
         android:layout_height="50dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintTop_toBottomOf="@+id/title_zoneview" />
 
     <TextView
         android:id="@+id/sol_zoneview"
         android:layout_width="315dp"
         android:layout_height="50dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintTop_toBottomOf="@+id/desc_zoneview" />
 
     <Button
         android:id="@+id/button_zoneview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Navigate"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintTop_toBottomOf="@+id/sol_zoneview"
+        app:layout_constraintVertical_bias="0.477" />
 </androidx.constraintlayout.widget.ConstraintLayout>

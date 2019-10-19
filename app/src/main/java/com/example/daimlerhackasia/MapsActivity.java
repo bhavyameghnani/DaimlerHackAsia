@@ -23,6 +23,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -176,6 +177,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     options.title(ar1.get(count));
                     options.snippet(ar2.get(count));
                     mMap.addMarker(options);
+                    mMap.addCircle(new CircleOptions()
+                            .center(point)
+                            .radius(100)
+                            .strokeColor(-65536)
+                            .fillColor(0x220000ff)
+                            .strokeWidth(5.0f));
                     count = count+1;
                     Log.d("HELLO",point.toString());
                 }
